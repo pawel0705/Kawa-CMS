@@ -1,0 +1,14 @@
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\bin\Debug\net6.0\KawaSklep.Data.deps.json
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\bin\Debug\net6.0\KawaSklep.Data.runtimeconfig.json
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\bin\Debug\net6.0\KawaSklep.Data.dll
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\bin\Debug\net6.0\KawaSklep.Data.pdb
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\KawaSklep.Data.csproj.AssemblyReference.cache
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\KawaSklep.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\KawaSklep.Data.AssemblyInfoInputs.cache
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\KawaSklep.Data.AssemblyInfo.cs
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\KawaSklep.Data.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\KawaSklep.Data.dll
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\refint\KawaSklep.Data.dll
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\KawaSklep.Data.pdb
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\KawaSklep.Data.genruntimeconfig.cache
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Data\obj\Debug\net6.0\ref\KawaSklep.Data.dll

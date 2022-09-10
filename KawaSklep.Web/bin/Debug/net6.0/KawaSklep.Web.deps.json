@@ -9,6 +9,7 @@
       "KawaSklep.Web/1.0.0": {
         "dependencies": {
           "KawaSklep.Data": "1.0.0",
+          "KawaSklep.Services": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.8",
           "Microsoft.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.Design": "6.0.8",
@@ -501,6 +502,14 @@
         "runtime": {
           "KawaSklep.Data.dll": {}
         }
+      },
+      "KawaSklep.Services/1.0.0": {
+        "dependencies": {
+          "KawaSklep.Data": "1.0.0"
+        },
+        "runtime": {
+          "KawaSklep.Services.dll": {}
+        }
       }
     }
   },
@@ -973,6 +982,11 @@
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
     },
     "KawaSklep.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KawaSklep.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

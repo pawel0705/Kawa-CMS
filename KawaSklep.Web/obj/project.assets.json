@@ -903,6 +903,19 @@
         "runtime": {
           "bin/placeholder/KawaSklep.Data.dll": {}
         }
+      },
+      "KawaSklep.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "KawaSklep.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KawaSklep.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KawaSklep.Services.dll": {}
+        }
       }
     }
   },
@@ -2302,11 +2315,17 @@
       "type": "project",
       "path": "../KawaSklep.Data/KawaSklep.Data.csproj",
       "msbuildProject": "../KawaSklep.Data/KawaSklep.Data.csproj"
+    },
+    "KawaSklep.Services/1.0.0": {
+      "type": "project",
+      "path": "../KawaSklep.Services/KawaSklep.Services.csproj",
+      "msbuildProject": "../KawaSklep.Services/KawaSklep.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "KawaSklep.Data >= 1.0.0",
+      "KawaSklep.Services >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.8",
       "Microsoft.EntityFrameworkCore >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
@@ -2344,6 +2363,9 @@
           "projectReferences": {
             "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj": {
               "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj"
+            },
+            "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Services\\KawaSklep.Services.csproj": {
+              "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Services\\KawaSklep.Services.csproj"
             }
           }
         }

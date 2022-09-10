@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KawaSklep.Data\KawaSklep.Data.csproj" />
+    <ProjectReference Include="..\KawaSklep.Services\KawaSklep.Services.csproj" />
   </ItemGroup>
 
 </Project>

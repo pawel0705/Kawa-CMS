@@ -10,3 +10,6 @@ C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Services\obj\Debug\net6.0\KawaSklep.S
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Services\obj\Debug\net6.0\refint\KawaSklep.Services.dll
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Services\obj\Debug\net6.0\KawaSklep.Services.pdb
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Services\obj\Debug\net6.0\ref\KawaSklep.Services.dll
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Services\bin\Debug\net6.0\KawaSklep.Data.dll
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Services\bin\Debug\net6.0\KawaSklep.Data.pdb
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Services\obj\Debug\net6.0\KawaSklep.Services.csproj.CopyComplete

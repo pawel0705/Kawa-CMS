@@ -45,3 +45,5 @@ C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\Npgsql.EntityFra
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\KawaSklep.Data.dll
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\KawaSklep.Data.pdb
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\KawaSklep.Services.dll
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\KawaSklep.Services.pdb

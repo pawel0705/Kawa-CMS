@@ -11,7 +11,7 @@
     <solar-button
       id="menuInventory"
       isFullWidth="true"
-      @button:click="goToRoute('/inventiry')"
+      @button:click="goToRoute('/inventory')"
     >
       Inventory
     </solar-button>
@@ -27,7 +27,7 @@
       isFullWidth="true"
       @button:click="goToRoute('/invoice/new')"
     >
-      New Invoicek
+      New Invoice
     </solar-button>
     <solar-button
       id="menuOrders"

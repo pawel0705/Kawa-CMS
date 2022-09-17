@@ -175,8 +175,6 @@ import { IProductInventory } from "@/types/Product";
 import { InventoryService } from "@/services/inventory-service";
 import SolarButton from "@/components/SolarButton.vue";
 import { Options, Vue } from "vue-class-component";
-
-// noinspection TypeScriptCheckImport
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import InvoiceService from "@/services/invoice-service";
@@ -286,6 +284,7 @@ export default class CreateInvoice extends Vue {
       updatedOn: new Date(),
     };
     this.invoiceStep = 1;
+    this.selectedCustomerId = 0;
   }
   finalizeOrder() {
     this.invoiceStep = 3;

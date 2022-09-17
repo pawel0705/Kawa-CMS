@@ -34,7 +34,7 @@
         </td>
         <td>
           <div
-            class="lni-cross-circle customer-delete"
+            class="lni lni-cross-circle customer-delete"
             @click="deleteCustomer(customer.id)"
           ></div>
         </td>

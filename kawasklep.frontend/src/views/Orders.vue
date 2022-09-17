@@ -27,7 +27,7 @@
           <td>
             <div
               v-if="!order.isPaid"
-              class="lni-check-mark-circle order-complete green"
+              class="lni lni-checkmark-circle order-complete green"
               @click="markComplete(order.id)"
             ></div>
           </td>

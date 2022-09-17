@@ -8,16 +8,32 @@
       />
     </router-link>
     <h1>Management Portal</h1>
-    <solar-button id="menuInventory" isFullWidth="true" @button:click="goToRoute('/inventiry')">
+    <solar-button
+      id="menuInventory"
+      isFullWidth="true"
+      @button:click="goToRoute('/inventiry')"
+    >
       Inventory
     </solar-button>
-    <solar-button id="menuCustomers" isFullWidth="true" @button:click="goToRoute('/customers')">
+    <solar-button
+      id="menuCustomers"
+      isFullWidth="true"
+      @button:click="goToRoute('/customers')"
+    >
       Manage Customers
     </solar-button>
-    <solar-button id="menuInvoice" isFullWidth="true" @button:click="goToRoute('/invoice/new')">
+    <solar-button
+      id="menuInvoice"
+      isFullWidth="true"
+      @button:click="goToRoute('/invoice/new')"
+    >
       New Invoicek
     </solar-button>
-    <solar-button id="menuOrders" isFullWidth="true" @button:click="goToRoute('/orders')">
+    <solar-button
+      id="menuOrders"
+      isFullWidth="true"
+      @button:click="goToRoute('/orders')"
+    >
       Orders
     </solar-button>
   </div>
@@ -32,7 +48,7 @@ import SolarButton from "./SolarButton.vue";
   components: { SolarButton },
 })
 export default class SideMenu extends Vue {
-  async goToRoute(route: string){
+  async goToRoute(route: string) {
     await this.$router.push(route);
   }
 }

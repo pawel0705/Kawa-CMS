@@ -21,6 +21,11 @@ namespace KawaSklep.Web.Controllers
         [HttpPost("/api/customer")]
         public ActionResult CreateCustomer([FromBody] CustomerModel customer)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _logger.LogInformation("CreateCustomer() called");
             customer.CreatedOn = DateTime.UtcNow;
             customer.CreatedOn = DateTime.UtcNow;

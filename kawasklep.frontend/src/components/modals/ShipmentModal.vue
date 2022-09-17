@@ -37,17 +37,16 @@ import { IProduct, IProductInventory } from "@/types/Product";
 import { Vue, Options } from "vue-class-component";
 import SolarButton from "../SolarButton.vue";
 import SolarModal from "./SolarModal.vue";
+import { PropType } from "vue";
 
 @Options({
   name: "ShipmentModal",
   components: { SolarButton, SolarModal },
   props: {
-    inventory: { type: Array as () => IProductInventory[], required: true },
+    inventory: { type: Array as PropType<IProductInventory[]>, required: true },
   },
 })
 export default class ShipmentModal extends Vue {
-  inventory: IProductInventory[] = [];
-
   selectedProduct: IProduct = {
     createdOn: new Date(),
     updatedOn: new Date(),
@@ -60,6 +59,7 @@ export default class ShipmentModal extends Vue {
   };
 
   qtyReceived = 0;
+  inventory!: IProductInventory[];
 
   close() {
     this.$emit("close");

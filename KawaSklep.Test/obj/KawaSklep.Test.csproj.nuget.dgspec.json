@@ -4,14 +4,14 @@
     "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\KawaSklep.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\KawaSklep.Test.csproj": {
+    "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\KawaSklep.Test.csproj",
-        "projectName": "KawaSklep.Test",
-        "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\KawaSklep.Test.csproj",
+        "projectUniqueName": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj",
+        "projectName": "KawaSklep.Data",
+        "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj",
         "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\obj\\",
+        "outputPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,188 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "StyleCop": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Services\\KawaSklep.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Services\\KawaSklep.Services.csproj",
+        "projectName": "KawaSklep.Services",
+        "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Services\\KawaSklep.Services.csproj",
+        "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj": {
+                "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\KawaSklep.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\KawaSklep.Test.csproj",
+        "projectName": "KawaSklep.Test",
+        "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\KawaSklep.Test.csproj",
+        "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj": {
+                "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Data\\KawaSklep.Data.csproj"
+              },
+              "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Services\\KawaSklep.Services.csproj": {
+                "projectPath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Services\\KawaSklep.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
             },
             "StyleCop": {
               "target": "Package",

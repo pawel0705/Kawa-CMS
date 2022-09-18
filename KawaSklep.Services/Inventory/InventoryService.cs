@@ -21,18 +21,25 @@ namespace KawaSklep.Services.Inventory
             _logger = logger;
         }
 
-        private void CreateSnapshot(ProductInventory inventory)
+        private void CreateSnapshot()
         {
             var now = DateTime.UtcNow;
 
-            var snapshot = new ProductInventorySnapshot
-            {
-                SnapshotTime = now,
-                Product = inventory.Product,
-                QuantityOnHand = inventory.QuantityOnHand,
-            };
+            var inventories = _caffeeDbContext
+                .ProductInventories.Include(inv => inv.Product)
+                .ToList();
 
-            _caffeeDbContext.Add(snapshot);            
+            foreach(var inventory in inventories)
+            {
+                var snapshot = new ProductInventorySnapshot
+                {
+                    SnapshotTime = now,
+                    Product = inventory.Product,
+                    QuantityOnHand = inventory.QuantityOnHand,
+                };
+
+                _caffeeDbContext.Add(snapshot);
+            }           
         }
 
         public ProductInventory GetByProductId(int productId)
@@ -73,7 +80,7 @@ namespace KawaSklep.Services.Inventory
                 
                 try
                 {
-                    CreateSnapshot(inventory);
+                    CreateSnapshot();
                 }
                 catch (Exception e)
                 {

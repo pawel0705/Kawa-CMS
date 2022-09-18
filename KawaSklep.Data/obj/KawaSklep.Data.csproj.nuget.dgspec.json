@@ -71,6 +71,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "StyleCop": {
+              "target": "Package",
+              "version": "[6.2.0, )"
             }
           },
           "imports": [

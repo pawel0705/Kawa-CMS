@@ -71,6 +71,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "StyleCop": {
+              "target": "Package",
+              "version": "[6.2.0, )"
             }
           },
           "imports": [
@@ -131,6 +135,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "StyleCop": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -216,6 +226,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "StyleCop": {
+              "target": "Package",
+              "version": "[6.2.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

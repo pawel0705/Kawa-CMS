@@ -677,6 +677,15 @@
           "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
+      "StyleCop/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/StyleCop.dll": {}
+        },
+        "runtime": {
+          "lib/net40/StyleCop.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -895,7 +904,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.8",
           "Microsoft.EntityFrameworkCore": "6.0.8",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.6"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.6",
+          "StyleCop": "6.2.0"
         },
         "compile": {
           "bin/placeholder/KawaSklep.Data.dll": {}
@@ -908,7 +918,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "KawaSklep.Data": "1.0.0"
+          "KawaSklep.Data": "1.0.0",
+          "StyleCop": "6.2.0"
         },
         "compile": {
           "bin/placeholder/KawaSklep.Services.dll": {}
@@ -1886,6 +1897,19 @@
         "postgresql.png"
       ]
     },
+    "StyleCop/6.2.0": {
+      "sha512": "rCRzMtLw9tR5fBjMrO8FwNg/ybY3ktHusktboZz0UtzzRAbI6BC9/0BaXNtk+mFZ0eldKI7/BKSVaRvhVCqfAQ==",
+      "type": "package",
+      "path": "stylecop/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/StyleCop.dll",
+        "lib/net40/StyleCop.xml",
+        "stylecop.6.2.0.nupkg.sha512",
+        "stylecop.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -2331,6 +2355,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
       "Newtonsoft.Json >= 13.0.1",
+      "StyleCop >= 6.2.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2404,6 +2429,10 @@
             "target": "Package",
             "version": "[13.0.1, )"
           },
+          "StyleCop": {
+            "target": "Package",
+            "version": "[6.2.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
@@ -2430,5 +2459,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „StyleCop 6.2.0” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „net6.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "StyleCop",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

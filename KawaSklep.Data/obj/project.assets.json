@@ -657,6 +657,15 @@
           "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
+      "StyleCop/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/StyleCop.dll": {}
+        },
+        "runtime": {
+          "lib/net40/StyleCop.dll": {}
+        }
+      },
       "System.Buffers/4.5.0": {
         "type": "package",
         "compile": {
@@ -1741,6 +1750,19 @@
         "postgresql.png"
       ]
     },
+    "StyleCop/6.2.0": {
+      "sha512": "rCRzMtLw9tR5fBjMrO8FwNg/ybY3ktHusktboZz0UtzzRAbI6BC9/0BaXNtk+mFZ0eldKI7/BKSVaRvhVCqfAQ==",
+      "type": "package",
+      "path": "stylecop/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/StyleCop.dll",
+        "lib/net40/StyleCop.xml",
+        "stylecop.6.2.0.nupkg.sha512",
+        "stylecop.nuspec"
+      ]
+    },
     "System.Buffers/4.5.0": {
       "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
       "type": "package",
@@ -2094,7 +2116,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.6"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.6",
+      "StyleCop >= 6.2.0"
     ]
   },
   "packageFolders": {
@@ -2167,6 +2190,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[6.0.6, )"
+          },
+          "StyleCop": {
+            "target": "Package",
+            "version": "[6.2.0, )"
           }
         },
         "imports": [
@@ -2187,5 +2214,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „StyleCop 6.2.0” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „net6.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "StyleCop",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

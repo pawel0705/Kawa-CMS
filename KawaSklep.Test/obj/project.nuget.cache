@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0PoW8qRITZdZVnuu6tpjh7ELBC6JpFR5TBfxSjPJtHFGXXzwLoKkjMIqW0GxcDcaEUofzKnYqvqmpewrnQWY+g==",
+  "dgSpecHash": "N6r7Y5YEs3vjDfxQ2R/BUgieuKb/PoU48ZEvEpa4oIlLLq6Vk/eFDrv5hgCKVmNaIq3mZxx/xz98aU09KQmaYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\pawel\\Desktop\\KawaSklep\\KawaSklep.Test\\KawaSklep.Test.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\pawel\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\pawel\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\pawel\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\stylecop\\6.2.0\\stylecop.6.2.0.nupkg.sha512",
     "C:\\Users\\pawel\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\pawel\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\pawel\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -97,5 +98,16 @@
     "C:\\Users\\pawel\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\pawel\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „StyleCop 6.2.0” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „net6.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "StyleCop",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

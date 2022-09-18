@@ -47,3 +47,4 @@ C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\KawaSklep.Data.d
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\KawaSklep.Data.pdb
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\KawaSklep.Services.dll
 C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\KawaSklep.Services.pdb
+C:\Users\pawel\Desktop\KawaSklep\KawaSklep.Web\bin\Debug\net6.0\StyleCop.dll

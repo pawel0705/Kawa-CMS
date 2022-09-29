@@ -30,11 +30,18 @@ const actions = {
   },
 };
 
-const getters = {};
+const getters = {
+  timeLineBuilt() {
+    return state.isTimelineBuilt;
+  },
+  snapshotTimeline() {
+    return state.snapshotTimeline;
+  },
+};
 
 export default {
   state,
+  getters,
   mutations,
   actions,
-  getters,
 };

@@ -1,4 +1,4 @@
-# KawaSklep
+# Kawa-CMS
 
 Aplikacja webowa - CMS dla produktów kawowych. Panel administracyjny, w którym użytkownik może dodawać klientów i swoje produkty oraz ustawiać ich ilość i cenę. Użytownik może wystawiać faktury klientom. Na głównym panelu znajduje się wykres z aktualną ilością dostępnych produktów w danym czasie.
 

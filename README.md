@@ -1,8 +1,8 @@
 # KawaSklep
 
-Aplikacja webowa - CMS dla produktów kawowych. Panel administracyjny, w którym użytkownik może dodawać klientów i swoje produkty oraz ustawiać ich ilość i cenę. Użytownik może wystawiać faktury klientom. Wykres przedstawia aktualną ilość produktów zmienianych w danym czasie.
+Aplikacja webowa - CMS dla produktów kawowych. Panel administracyjny, w którym użytkownik może dodawać klientów i swoje produkty oraz ustawiać ich ilość i cenę. Użytownik może wystawiać faktury klientom. Na głównym panelu znajduje się wykres z aktualną ilością dostępnych produktów w danym czasie.
 
-Główne technologie: Vue3, TypeScript, .NET 6, C#
+Główne technologie: Vue3, TypeScript, .NET 6, C#, PostgreSQL
 
 ## Wygląd aplikacji
 
